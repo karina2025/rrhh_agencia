@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS empleados;
+
+CREATE DATABASE IF NOT EXISTS empleados;
+USE empleados;
+
+CREATE TABLE empleados (
+    id INT auto increment PRIMARY KEY,
+   NOMBRE VARCHAR(30) NO NULL,
+    APELLIDO VARCHAR(30) NO NULL,
+    CORREO VARCHAR(50) NO NULL
+);
